@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Application Theme - Clean Professional Light Theme (No ActionBar) -->
+    <style name="Theme.VirtualAssistant" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/primary_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/primary_500</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/primary_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/primary_500</item>
+        <item name="colorOnSecondaryContainer">@color/white</item>
+
+        <!-- Surface colors -->
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+
+        <!-- Outline colors -->
+        <item name="colorOutline">@color/divider</item>
+        <item name="colorOutlineVariant">@color/divider</item>
+
+        <!-- Error colors -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="colorErrorContainer">@color/error</item>
+        <item name="colorOnErrorContainer">@color/white</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">@color/background</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Base styles -->
+    <style name="TextAppearance.ReminderCard" parent="" />
+    <style name="Widget.App" parent="" />
+
+    <!-- Calendar Text Styles -->
+    <style name="TextAppearance.Calendar.MonthYear" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">@dimen/calendar_header_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.Calendar.Date" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">@dimen/calendar_date_text_size</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.Calendar.Weekday" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textSize">@dimen/calendar_weekday_text_size</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <!-- Reminder Card Styles -->
+    <style name="Widget.App.ReminderCard" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="cardCornerRadius">@dimen/reminder_card_corner_radius</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/divider</item>
+        <item name="contentPadding">@dimen/reminder_card_padding</item>
+        <item name="android:layout_margin">@dimen/reminder_card_margin</item>
+    </style>
+
+    <style name="Widget.App.ReminderCard.Completed">
+        <item name="cardBackgroundColor">@color/surface_variant</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/divider</item>
+    </style>
+
+    <style name="TextAppearance.ReminderCard.Time" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textSize">@dimen/reminder_time_text_size</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.ReminderCard.Message" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textSize">@dimen/reminder_message_text_size</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.ReminderCard.Completed">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <!-- Date Header Styles -->
+    <style name="TextAppearance.DateHeader" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textSize">@dimen/date_header_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Empty State Styles -->
+    <style name="TextAppearance.EmptyState" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textSize">@dimen/empty_state_text_size</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Widget.App.Button.TextButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:minWidth">@dimen/min_touch_target</item>
+    </style>
+
+    <!-- Chip Styles -->
+    <style name="Widget.App.Chip.Filter" parent="Widget.Material3.Chip.Filter">
+        <item name="chipMinHeight">@dimen/chip_height</item>
+        <item name="android:layout_marginEnd">@dimen/chip_spacing</item>
+    </style>
+
+    <!-- FAB Style -->
+    <style name="Widget.App.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+    </style>
+
+    <!-- Divider Style -->
+    <style name="Widget.App.Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <!-- Transparent Theme for Widget Input Overlay -->
+    <style name="Theme.Widget.Transparent" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+
+    <!-- Widget Configuration Theme -->
+    <style name="Theme.Widget.Config" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">#1A1D2E</item>
+        <item name="android:statusBarColor">#1A1D2E</item>
+        <item name="android:navigationBarColor">#1A1D2E</item>
+        <item name="colorPrimary">#5D83FF</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSurface">#252836</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+    </style>
+</resources>

@@ -1,0 +1,2 @@
+# Domain layer package
+# Contains business logic, command parser, reminder manager, and notification scheduler

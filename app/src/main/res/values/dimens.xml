@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing -->
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    
+    <!-- Calendar -->
+    <dimen name="calendar_padding">8dp</dimen>
+    <dimen name="calendar_date_text_size">14sp</dimen>
+    <dimen name="calendar_weekday_text_size">12sp</dimen>
+    <dimen name="calendar_header_text_size">18sp</dimen>
+    <dimen name="calendar_month_navigation_button_size">48dp</dimen>
+    
+    <!-- Event indicators -->
+    <dimen name="event_indicator_dot_size">6dp</dimen>
+    <dimen name="event_indicator_dot_large">8dp</dimen>
+    <dimen name="event_indicator_spacing">2dp</dimen>
+    
+    <!-- Reminder cards -->
+    <dimen name="reminder_card_margin">8dp</dimen>
+    <dimen name="reminder_card_padding">16dp</dimen>
+    <dimen name="reminder_card_corner_radius">12dp</dimen>
+    <dimen name="reminder_card_elevation">2dp</dimen>
+    <dimen name="reminder_card_stroke_width">1dp</dimen>
+    
+    <!-- Reminder card content -->
+    <dimen name="reminder_icon_size">24dp</dimen>
+    <dimen name="reminder_icon_margin_end">16dp</dimen>
+    <dimen name="reminder_time_text_size">16sp</dimen>
+    <dimen name="reminder_message_text_size">14sp</dimen>
+    <dimen name="reminder_message_margin_top">4dp</dimen>
+    
+    <!-- Date headers -->
+    <dimen name="date_header_padding_vertical">16dp</dimen>
+    <dimen name="date_header_padding_horizontal">16dp</dimen>
+    <dimen name="date_header_text_size">16sp</dimen>
+    <dimen name="date_header_divider_height">1dp</dimen>
+    <dimen name="date_header_divider_margin_top">8dp</dimen>
+    
+    <!-- Empty state -->
+    <dimen name="empty_state_padding">32dp</dimen>
+    <dimen name="empty_state_icon_size">64dp</dimen>
+    <dimen name="empty_state_icon_margin_bottom">16dp</dimen>
+    <dimen name="empty_state_text_size">16sp</dimen>
+    
+    <!-- LazyColumn/Row -->
+    <dimen name="list_padding_vertical">8dp</dimen>
+    <dimen name="list_item_spacing">8dp</dimen>
+
+    <!-- FAB -->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    
+    <!-- Bottom Navigation -->
+    <dimen name="bottom_nav_height">56dp</dimen>
+    <dimen name="bottom_nav_icon_size">24dp</dimen>
+    <dimen name="bottom_nav_text_size">12sp</dimen>
+    
+    <!-- Dividers -->
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="divider_margin">0dp</dimen>
+    
+    <!-- Touch targets (minimum 48dp for accessibility) -->
+    <dimen name="min_touch_target">48dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    
+    <!-- Filter chips -->
+    <dimen name="chip_spacing">8dp</dimen>
+    <dimen name="chip_height">32dp</dimen>
+    <dimen name="chip_padding_horizontal">12dp</dimen>
+    
+    <!-- Swipe gestures -->
+    <dimen name="swipe_icon_size">24dp</dimen>
+    <dimen name="swipe_icon_margin">16dp</dimen>
+</resources>

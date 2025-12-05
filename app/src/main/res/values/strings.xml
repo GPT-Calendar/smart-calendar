@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Calendar</string>
+    <string name="voice_button">Voice Input</string>
+    <string name="listening">Listening…</string>
+    <string name="processing">Processing…</string>
+    <string name="error_stt_unavailable">Speech recognition is not available</string>
+    <string name="error_no_speech">No speech detected</string>
+    <string name="error_permission_denied">Microphone permission is required</string>
+    <string name="error_tts_unavailable">Text-to-speech is not available</string>
+    <string name="error_invalid_command">Could not understand the command. Please try again.</string>
+    <string name="error_past_time">The specified time has already passed. Please choose a future time.</string>
+    <string name="error_invalid_time_format">Invalid time format. Try saying \"at 2 PM\" or \"in 30 minutes\".</string>
+    <string name="error_no_message">Could not extract reminder message. Try saying \"remind me to [your message]\".</string>
+    <string name="error_database_failure">Failed to save reminder. Please try again.</string>
+    <string name="error_scheduling_failure">Failed to schedule reminder notification. Please check alarm permissions.</string>
+    <string name="error_tts_init_failure">Voice confirmation unavailable. Reminder created successfully.</string>
+    <string name="error_generic">An unexpected error occurred. Please try again.</string>
+    <string name="permission_rationale_audio">Microphone access is needed to capture voice commands</string>
+    <string name="permission_rationale_notification">Notification permission is needed to alert you at reminder time</string>
+    <string name="permission_rationale_alarm">Exact alarm permission is needed to trigger reminders at precise times</string>
+    <string name="permission_rationale_location">Location access is needed to create reminders that trigger when you arrive at specific places</string>
+    <string name="permission_rationale_background_location">Background location access allows the app to detect when you arrive at reminder locations even when the app is not in use</string>
+    <string name="error_location_permission_denied">Location permission is required for location-based reminders</string>
+    <string name="error_location_unavailable">Unable to determine your location. Please check location services.</string>
+    <string name="error_geocoding_failed">Could not find the specified location. Please try a different address.</string>
+    <string name="location_reminder_indicator">Location-based reminder</string>
+    <string name="location_details_format">At %1$s • %2$dm radius</string>
+    <string name="location_category_format">At any %1$s • %2$dm radius</string>
+    
+    <!-- Location Settings -->
+    <string name="location_settings_title">Location Settings</string>
+    <string name="location_permission_status">Location Permission Status</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="saved_locations_title">Saved Locations</string>
+    <string name="saved_locations_description">Manage your frequently visited places for quick reminder setup</string>
+    <string name="no_saved_locations">No saved locations yet</string>
+    <string name="add_location">Add location</string>
+    <string name="location_icon">Location icon</string>
+    <string name="delete_location">Delete location</string>
+    <string name="add_location_dialog_title">Add Location</string>
+    <string name="location_name_hint">Location name (e.g., Home, Work)</string>
+    <string name="use_current_location">Use Current Location</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="address_hint">Enter address</string>
+    <string name="radius_hint">Radius (meters)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="location_saved">Location saved successfully</string>
+    <string name="location_deleted">Location deleted</string>
+    <string name="error_location_name_empty">Please enter a location name</string>
+    <string name="error_address_empty">Please enter an address</string>
+    <string name="error_invalid_radius">Please enter a valid radius</string>
+    <string name="permission_granted">Location permission granted</string>
+    <string name="permission_denied">Location permission denied</string>
+    <string name="background_permission_granted">Background location permission granted</string>
+    <string name="background_permission_denied">Background location permission denied</string>
+    <string name="back_button_desc">Back</string>
+    <string name="location_permission_granted">Location permission granted. All location features available.</string>
+    <string name="location_permission_foreground_only">Location permission granted (foreground only). Background location access recommended for better location-based reminders.</string>
+    <string name="location_permission_denied">Location permission denied. Location-based reminders will not work.</string>
+    <string name="grant_background_permission">Grant background permission</string>
+    
+    <!-- Navigation -->
+    <string name="nav_assistant">Assistant</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_finance">Finance</string>
+    <string name="nav_all_events">All Events</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_voice">Voice</string>
+    <string name="content_description_fab">Add reminder via voice</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_delete_reminder">Delete reminder</string>
+    <string name="desc_prev_month">Previous month</string>
+    <string name="desc_next_month">Next month</string>
+    <string name="desc_stop_listening">Stop listening</string>
+    <string name="desc_start_listening">Start listening</string>
+    <string name="tap_to_speak">Tap to speak</string>
+    <string name="voice_instruction">Say something like:\n• \"Remind me to call John at 3 PM\"\n• \"Remind me to buy milk at the store\"\n• \"Remind me to take medicine when I get home\"\n• \"Set alarm at 5 AM tomorrow\"</string>
+    <string name="voice_reminder_title">Voice Reminder</string>
+    
+    <!-- Calendar Fragment -->
+    <string name="btn_previous_month">Previous month</string>
+    <string name="btn_next_month">Next month</string>
+    <string name="btn_today">Today</string>
+    <string name="calendar_view_description">Calendar view</string>
+    <string name="month_year_format">MMMM yyyy</string>
+    <string name="events_for_date">Events for %1$s</string>
+    <string name="event_count_description">%1$d events on this date</string>
+    <string name="no_events_description">No events on this date</string>
+    
+    <!-- Date Headers -->
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="date_header_format">%1$s - %2$s</string>
+    
+    <!-- Reminder Card -->
+    <string name="reminder_status_icon">Reminder status icon</string>
+    <string name="reminder_time_format">h:mm a</string>
+    <string name="reminder_date_format">MMM d, yyyy</string>
+    <string name="reminder_pending">Pending</string>
+    <string name="reminder_completed">Completed</string>
+    <string name="reminder_cancelled">Cancelled</string>
+    <string name="reminder_details_format">Reminder: %1$s\nScheduled: %2$s\nStatus: %3$s</string>
+    
+    <!-- Event List Fragment -->
+    <string name="no_events_for_date">No events for this date</string>
+    <string name="empty_state_icon_description">No events icon</string>
+    <string name="reminder_deleted">Reminder deleted</string>
+    <string name="undo">Undo</string>
+    <string name="error_delete_failed">Failed to delete reminder</string>
+    <string name="swipe_to_delete">Swipe to delete</string>
+    
+    <!-- All Events Fragment -->
+    <string name="all_events_title">All Events</string>
+    <string name="filter_label">Filter</string>
+    <string name="filter_all">All</string>
+    <string name="filter_pending">Pending</string>
+    <string name="filter_completed">Completed</string>
+    <string name="no_reminders">No reminders</string>
+    <string name="no_pending_reminders">No pending reminders</string>
+    <string name="no_completed_reminders">No completed reminders</string>
+    <string name="error_load_failed">Failed to load reminders</string>
+    
+    <!-- Accessibility -->
+    <string name="calendar_date_selected">Selected date: %1$s</string>
+    <string name="calendar_date_with_events">%1$s, %2$d events</string>
+    <string name="calendar_date_no_events">%1$s, no events</string>
+    <string name="reminder_card_description">Reminder at %1$s: %2$s, status: %3$s</string>
+    <string name="delete_reminder">Delete reminder</string>
+    
+    <!-- Error handling edge cases -->
+    <string name="error_calendar_update">Failed to update calendar view</string>
+    <string name="error_date_selection">Failed to select date</string>
+    <string name="error_filter_apply">Failed to apply filter</string>
+    <string name="error_reminder_details">Failed to load reminder details</string>
+    
+    <!-- Widget -->
+    <string name="widget_description">Chat with AI directly from your home screen. Type or use voice to create reminders, set alarms, and more - without opening the app!</string>
+    <string name="widget_name">AI Chat Widget</string>
+    <string name="widget_voice_name">Voice Button</string>
+    <string name="widget_voice_description">One tap to speak. Create reminders, set alarms, ask questions - just tap and talk.</string>
+    <string name="widget_next_name">Next Up</string>
+    <string name="widget_next_description">See your next reminder at a glance. Complete it or add new ones with voice.</string>
+    <string name="widget_compact_name">AI Quick Access</string>
+    <string name="widget_compact_description">Compact 2x2 widget for quick AI chat access with voice and floating chat buttons.</string>
+    <string name="widget_glance_name">AI Glance Widget</string>
+    <string name="widget_glance_description">Full-featured 4x4 widget showing upcoming reminders, AI chat, and quick actions.</string>
+    <string name="widget_input_hint">Type your message...</string>
+    <string name="widget_voice_hint">Tap mic to speak</string>
+    <string name="widget_config_title">Configure Widget</string>
+    <string name="widget_config_show_upcoming">Show upcoming reminders</string>
+    <string name="widget_config_show_quick_actions">Show quick action buttons</string>
+    <string name="widget_config_theme">Theme</string>
+    <string name="widget_config_theme_dark">Dark (default)</string>
+    <string name="widget_config_theme_light">Light</string>
+    <string name="widget_config_save">Save Configuration</string>
+    
+    <!-- Floating Chat -->
+    <string name="floating_chat_title">AI Chat Active</string>
+    <string name="floating_chat_description">Tap the floating bubble to chat</string>
+    <string name="floating_chat_stop">Stop</string>
+</resources>

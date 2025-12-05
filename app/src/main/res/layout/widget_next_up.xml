@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_next_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/widget_next_background">
+
+    <!-- Header: App name + Add button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Next Up"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:alpha="0.7" />
+
+        <!-- Voice add button -->
+        <ImageButton
+            android:id="@+id/widget_next_add"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/widget_add_circle"
+            android:src="@android:drawable/ic_btn_speak_now"
+            android:contentDescription="Add reminder"
+            android:padding="6dp"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+    <!-- The ONE next item - this is the focus -->
+    <LinearLayout
+        android:id="@+id/widget_next_item"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!-- Checkbox to complete -->
+        <ImageButton
+            android:id="@+id/widget_next_check"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/widget_checkbox"
+            android:contentDescription="Mark complete"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical">
+
+            <!-- Reminder message -->
+            <TextView
+                android:id="@+id/widget_next_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No upcoming reminders"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:maxLines="2"
+                android:ellipsize="end" />
+
+            <!-- Time -->
+            <TextView
+                android:id="@+id/widget_next_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:alpha="0.7"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Tap anywhere hint -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap to open app"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:alpha="0.5"
+        android:gravity="center" />
+
+</LinearLayout>

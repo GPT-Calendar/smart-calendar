@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#305CDE</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Minimal Professional Light Theme Colors -->
+    <color name="primary_500">#1976D2</color>  <!-- Professional blue accent -->
+    <color name="primary_600">#1565C0</color>  <!-- Darker blue for emphasis -->
+    <color name="primary_700">#0D47A1</color>  <!-- Darkest blue for headers -->
+
+    <!-- Text colors -->
+    <color name="text_primary">#212121</color>      <!-- Dark gray for primary text -->
+    <color name="text_secondary">#757575</color>    <!-- Medium gray for secondary text -->
+    <color name="text_hint">#9E9E9E</color>        <!-- Light gray for hints -->
+
+    <!-- Backgrounds -->
+    <color name="background">#FFFFFF</color>        <!-- Pure white background -->
+    <color name="surface">#FFFFFF</color>           <!-- Surface color -->
+    <color name="surface_variant">#F5F5F5</color>   <!-- Subtle surface variant -->
+
+    <!-- Status colors -->
+    <color name="success">#4CAF50</color>           <!-- Green for success -->
+    <color name="warning">#FFC107</color>           <!-- Amber for warnings -->
+    <color name="error">#F44336</color>             <!-- Red for errors -->
+
+    <!-- Divider and border -->
+    <color name="divider">#E0E0E0</color>           <!-- Light gray divider -->
+    <color name="stroke">#E0E0E0</color>            <!-- Stroke color -->
+
+    <!-- Functional minimal colors -->
+    <color name="functional_primary">#1976D2</color>    <!-- Primary functional color -->
+    <color name="functional_secondary">#757575</color>  <!-- Secondary functional color -->
+    <color name="functional_surface">#F5F5F5</color>    <!-- Functional surface -->
+
+    <!-- Calendar specific colors -->
+    <color name="calendar_selected_date">#1976D2</color>    <!-- Professional blue for selected date -->
+    <color name="calendar_today">#E3F2FD</color>            <!-- Light blue for today -->
+    <color name="calendar_today_text">#1976D2</color>       <!-- Blue text for today -->
+    <color name="calendar_background">#FFFFFF</color>       <!-- White calendar background -->
+    <color name="calendar_date_text">#212121</color>       <!-- Dark text for dates -->
+    <color name="calendar_weekday_text">#757575</color>    <!-- Medium gray for weekdays -->
+
+    <!-- Event indicators -->
+    <color name="event_indicator">#1976D2</color>          <!-- Professional blue event indicator -->
+    <color name="event_indicator_few">#64B5F6</color>      <!-- Lighter blue for few events -->
+    <color name="event_indicator_many">#1976D2</color>     <!-- Professional blue for many events -->
+    <color name="event_indicator_background">#E3F2FD</color> <!-- Light blue background -->
+
+    <!-- Reminder card states -->
+    <color name="reminder_pending_bg">#FFFFFF</color>      <!-- White for pending reminders -->
+    <color name="reminder_pending_text">#212121</color>    <!-- Dark text for pending reminders -->
+    <color name="reminder_completed_bg">#F5F5F5</color>    <!-- Light gray for completed -->
+    <color name="reminder_completed_text">#757575</color>  <!-- Medium gray for completed text -->
+    <color name="reminder_cancelled_bg">#FFF8F8</color>    <!-- Light red for cancelled -->
+    <color name="reminder_cancelled_text">#B71C1C</color>  <!-- Dark red for cancelled text -->
+
+    <!-- Swipe to delete -->
+    <color name="swipe_delete_background">#D32F2F</color>  <!-- Red for swipe delete -->
+    <color name="swipe_delete_icon">#FFFFFF</color>        <!-- White delete icon -->
+
+    <!-- Empty state -->
+    <color name="empty_state_icon">#9E9E9E</color>        <!-- Light gray for empty state icon -->
+    <color name="empty_state_text">#757575</color>        <!-- Medium gray for empty state text -->
+</resources>
