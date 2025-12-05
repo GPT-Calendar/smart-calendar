@@ -43,12 +43,12 @@
 ## 📥 Download APK
 
 <p align="center">
-  <a href="https://github.com/GPT-Calendar/smart-calendar/releases/tag/v0.0.1/smart-calendar.apk">
+  <a href="https://github.com/GPT-Calendar/smart-calendar/releases/download/v0.0.1/smart-calendar.apk">
     <img src="https://img.shields.io/badge/Download-APK%20v0.0.1%20Beta-brightgreen?style=for-the-badge&logo=android" alt="Download APK">
   </a>
 </p>
 
-**[⬇️ Download Smart Calendar v0.0.1 Beta](https://github.com/GPT-Calendar/smart-calendar/releases/tag/v0.0.1/smart-calendar.apk)**
+**[⬇️ Download Smart Calendar v0.0.1 Beta](https://github.com/GPT-Calendar/smart-calendar/releases/download/v0.0.1/smart-calendar.apk)**
 
 ### How to Install
 
@@ -166,7 +166,7 @@ Persistent overlay for quick access from any app.
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/smart-calendar.git
+git clone https://github.com/GPT-Calendar/smart-calendar.git
 cd smart-calendar
 ```
 
