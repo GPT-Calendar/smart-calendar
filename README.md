@@ -58,6 +58,8 @@
 
 ### Disable Play Protect
 
+Google Play Protect blocks APK installations from unknown sources as a safety measure. Since this app isn't on the Play Store, you need to temporarily disable it. Don't worry — the app is open source and safe. You can re-enable it after installation.
+
 1. Open **Google Play Store**
 2. Tap your **profile icon** (top right)
 3. Tap **Play Protect**
@@ -65,7 +67,7 @@
 5. Turn OFF **Scan apps with Play Protect**
 6. Confirm by tapping **Turn off**
 
-Now install the APK — you can re-enable Play Protect after installation.
+After installing the APK, you can re-enable Play Protect for continued protection.
 
 ### After Installation
 
@@ -516,7 +518,9 @@ gradlew.bat clean build   # Windows
 
 ## 📄 License
 
-MIT License — See [LICENSE](LICENSE) file
+Personal Use License — See [LICENSE](LICENSE) file
+
+**This software is for personal use only. Commercial use, distribution, and derivative works are prohibited.**
 
 ---
 
