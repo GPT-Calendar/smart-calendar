@@ -13,7 +13,6 @@
   <img src="https://img.shields.io/badge/Android-26%2B-green?logo=android" alt="Android 26+">
   <img src="https://img.shields.io/badge/Kotlin-1.9.20-purple?logo=kotlin" alt="Kotlin">
   <img src="https://img.shields.io/badge/Jetpack%20Compose-Material%203-blue" alt="Compose">
-  <img src="https://img.shields.io/badge/Built%20with-Kiro-orange" alt="Built with Kiro">
 </p>
 
 
@@ -31,7 +30,6 @@
 - [Voice Commands](#-voice-commands)
 - [Project Structure](#-project-structure)
 - [Tech Stack](#-tech-stack)
-- [Kiro Specs](#-kiro-specs)
 - [Contributing](#-contributing)
 - [License](#-license)
 
@@ -391,8 +389,6 @@ smart-calendar/
 │   │   ├── res/                         # Resources
 │   │   └── AndroidManifest.xml
 │   └── build.gradle.kts
-├── .kiro/
-│   └── specs/                           # Feature specifications
 ├── gradle/
 ├── build.gradle.kts                     # Root build config
 ├── settings.gradle.kts
@@ -422,23 +418,7 @@ smart-calendar/
 
 ---
 
-## 📁 Kiro Specs
 
-Feature specifications are in `.kiro/specs/`. Each feature has:
-- `requirements.md` — What the feature should do
-- `design.md` — Technical design decisions
-- `tasks.md` — Implementation checklist
-
-```
-.kiro/specs/
-├── multi-screen-ui/              # UI design system
-├── chat-enhancements/            # Chat features
-├── finance-enhancements/         # Finance system
-├── reminder-task-alarm-enhancements/  # Task management
-└── calendar-ui-enhancement/      # Calendar features
-```
-
----
 
 ## 🎨 Design System
 
@@ -505,7 +485,7 @@ gradlew.bat clean build   # Windows
 4. Task Management (reminders, tasks, alarms)
 5. Widget System (home screen integration)
 
-**Development:** 90% vibe coding, 10% spec-driven development with [Kiro IDE](https://kiro.dev)
+**Development:** 90% vibe coding, 10% spec-driven development with [Ai IDE](https://kiro.dev)
 
 ---
 
