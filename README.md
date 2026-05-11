@@ -16,9 +16,6 @@
   <img src="https://img.shields.io/badge/Built%20with-Kiro-orange" alt="Built with Kiro">
 </p>
 
-<p align="center">
-  🎃 <em>Kiroween Hackathon Entry — Frankenstein Category</em>
-</p>
 
 ---
 
