@@ -501,10 +501,6 @@ gradlew.bat clean build   # Windows
 
 ---
 
-## 🏆 Kiroween Hackathon
-
-**Category:** Frankenstein — Stitching together incompatible technologies
-
 **Technologies Combined:**
 1. Voice AI (natural language understanding)
 2. Finance Tracking (SMS parsing, budgeting)
@@ -529,5 +525,5 @@ Personal Use License — See [LICENSE](LICENSE) file
 </p>
 
 <p align="center">
-  Built with ❤️ using <a href="https://kiro.dev">Kiro</a>
+  Built with ❤️
 </p>
